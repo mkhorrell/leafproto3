@@ -1,0 +1,15 @@
+{
+  "name": "leaf-prototype",
+  "version": "1.0.0",
+  "description": "leaf prototype pwa test",
+  "main": "manifest.json",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "madeleine horrell",
+  "license": "ISC"
+}

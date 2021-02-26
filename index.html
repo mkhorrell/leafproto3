@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+ <!-- link to our manifest   -->
+ <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+
+  <div id="myBtnContainer">
+  	<button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  	<button class="btn" onclick="filterSelection('spring')"> Spring</button>
+  	<button class="btn" onclick="filterSelection('summer')"> Summer</button>
+  	<button class="btn" onclick="filterSelection('fall')"> Fall</button>
+  	<button class="btn" onclick="filterSelection('winter')"> Winter</button>
+  	<button class="btn" onclick="filterSelection('indoor')"> Indoor</button>
+  	<button class="btn" onclick="filterSelection('outdoor')"> Outdoor</button>
+  </div>
+
+  <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+  <div class="container">
+  	<div class="filterDiv spring summer fall winter outdoor">Listen for 60 seconds</div>
+  	<div class="filterDiv spring summer fall winter outdoor">Look for the sun and find cardinal directions</div>
+  	<div class="filterDiv summer spring fall indoor outdoor">Watch the shadows move, learn to tell time.</div>
+  	<div class="filterDiv fall outdoor">Look for falling leaves.</div>
+  	<div class="filterDiv winter indoor outdoor">Look for icicles.</div>
+  	<div class="filterDiv summer spring outdoor">Water Day</div>
+  	<div class="filterDiv winter outdoor">Footprints in the snow</div>
+  	<div class="filterDiv fall spring summer winter indoor outdoor">Act like an animal</div>
+  	<div class="filterDiv winter fall spring summer outdoor">Spot something new</div>
+
+  </div>
+  
+</body>
+<script type="text/javascript" src="index.js">
+</script>
+</html>
